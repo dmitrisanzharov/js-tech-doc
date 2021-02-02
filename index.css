@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+  background-color: lightgray; 
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+#sideMenu{
+  position: fixed;
+  border-right: 3px solid gray;
+  box-sizing: border-box; 
+  width: 350px;
+  height: 105vh;
+  margin-top: -25px;
+  margin-left: -10px;
+  padding-left: 35px;
+
+}
+
+#sideMenu a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#sideMenu a:hover{
+  text-decoration: underline;
+}
+
+.sideList{
+  border-top: 1px solid black;
+  margin-left: -33px;
+  padding-left: 35px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+
+/* ........................ */
+
+#mainContent{
+  margin-left: 375px;
+}
+
+#mainContent p{
+  margin-left: 35px;
+  margin-right: 35px;
+  text-align: justify;
+}
+
+#mainContent ul{
+
+  margin-left: 55px;
+  margin-right: 35px;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+#mainContent li{
+  margin-bottom: 20px;
+}
+
+#mainContent hr{
+  margin-top: 40px;
+}
+
+.codeDiv{
+  background-color: rgb(247,247,247);
+  border-radius: 5px;
+  margin-left: 45px;
+  margin-right: 35px;
+  padding: 15px;
+}
+
+.codeJump{
+  margin-left: 65px;
+}
